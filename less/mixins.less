@@ -1,1 +1,28 @@
 // Mixins in here
+
+
+.flexbox-row() {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox-column() {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.size-header-footer() {
+    width: 75%;
+    margin: 0 auto; 
+}
+    
+
+.signup-button(@background-color, @font-size, @text-align ) {
+    font-size: @font-size;
+    text-align: @text-align;
+    padding: 15px 0;
+    background-color: @background-color;
+    border-radius: 10px;
+    
+}
